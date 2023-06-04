@@ -1,0 +1,60 @@
+.root {
+    -fx-background-image: url('background_scene1.jpeg');
+    -fx-background-size: cover;
+    -fx-background-position: fixed;
+}
+.header {
+    -fx-background-color:black;
+    -fx-padding: 10;
+    -fx-pref-height: 60px; 
+}
+
+.header-label {
+    -fx-font-size: 30px;
+     -fx-text-fill: white;
+     -fx-font-family:"Monotype Corsiva";
+}
+     
+
+.button {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+ 
+     -fx-font-family:"Monotype Corsiva";
+     -fx-font-size: 20px;
+}
+.button1 {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+ 
+     -fx-font-family:"Monotype Corsiva";
+     -fx-font-size: 25px;
+}
+.l1{
+    -fx-text-fill: white;
+ 
+     -fx-font-family:"Monotype Corsiva";
+     -fx-font-size: 20px;
+}
+.welcome-label {
+    -fx-font-family: "Monotype Corsiva";
+    -fx-font-size: 55px;
+    -fx-text-fill: white;
+}
+.welcome-label2 {
+    -fx-font-family: "Monotype Corsiva";
+    -fx-font-size: 50px;
+    -fx-text-fill: white;
+}
+.welcome-label3 {
+    -fx-font-family: "Monotype Corsiva";
+    -fx-font-size: 45px;
+    -fx-text-fill: white;
+}
+
+
+
+
+
+
+ 
