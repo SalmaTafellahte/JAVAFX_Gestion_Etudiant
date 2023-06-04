@@ -1,0 +1,52 @@
+/*css pour background */
+.root3{
+	-fx-alignment: center;
+	-fx-background-image: url('background_scene3.png');
+    -fx-background-size: cover;
+    -fx-background-position: fixed;
+}
+/*css pour formulaire */
+.nomText{
+    -fx-padding: 10;
+    -fx-pref-height: 60px;
+    -fx-pref-width: 200px; 
+}
+.MassarText{
+	 -fx-padding: 10;
+    -fx-pref-height: 60px;
+    -fx-pref-width: 200px; 
+}
+
+.lblB_nom{
+	-fx-font-size: 40px;
+     -fx-text-fill:black;
+     -fx-font-family:"Monotype Corsiva";
+}
+.lblB_Code{
+	-fx-font-size: 40px;
+     -fx-text-fill: black;
+     -fx-font-family:"Monotype Corsiva";
+}
+.btn_chercher{
+	-fx-background-color:black;
+    -fx-text-fill: white;
+ 
+     -fx-font-family:"Monotype Corsiva";
+     -fx-font-size: 20px;
+}
+/* style.css */
+
+.label {
+     -fx-font-size: 40px;
+     -fx-text-fill:black;
+     -fx-font-family:"Monotype Corsiva";
+     -fx-font-weight: bold;
+}
+
+.text {
+	-fx-font-size: 40px;
+     -fx-text-fill:black;
+    -fx-font-weight: bold;
+   
+}
+
