@@ -1,0 +1,114 @@
+/*css pour scene2 */
+.root {
+    -fx-background-image: url('Background_sceneTable.jpeg');
+    -fx-background-size: cover;
+    -fx-background-position: fixed;
+}
+/*css du table view */
+#myTableView{
+	  
+     -fx-text-fill: white;
+     -fx-font-family:"Monotype Corsiva";
+     -fx-font-size: 15px;
+     -fx-min-width: 730px;
+    -fx-max-height: 600px;
+    -fx-font-weight: bold;
+}
+   
+/* Style des colonnes */
+.table-view .table-column {
+    -fx-pref-width: 100px;
+    -fx-font-size: 15px;}
+
+/* Style des en-têtes de colonnes */
+.table-view .column-header {
+    -fx-pref-width: 100px; 
+    -fx-font-size: 18px;}
+.table-view {
+    
+    -fx-translate-y:40px;
+}
+.text-styling {
+	  -fx-font-family:"Monotype Corsiva";
+	  -fx-font-size: 25px;
+	  -fx-min-width: 730px;
+	  
+}
+.VBox-styling {
+    -fx-alignment: center;
+}
+.root2-styling{
+	 -fx-alignment: center;
+}
+.T1{
+	-fx-font-family:"Monotype Corsiva";
+	-fx-font-size: 15px;
+}
+.T2{
+	-fx-font-family:"Monotype Corsiva";
+	-fx-font-size: 15px;
+}
+.T3{
+	-fx-font-family:"Monotype Corsiva";
+    -fx-font-size: 15px;
+}
+.T4{
+	-fx-font-family:"Monotype Corsiva";
+	-fx-font-size: 15px;
+}
+.T5{
+	-fx-font-family:"Monotype Corsiva";
+    -fx-font-size: 15px;
+}
+.T6{
+	-fx-font-family:"Monotype Corsiva";
+	-fx-font-size: 15px;
+}
+.T7{
+	-fx-font-family:"Monotype Corsiva";
+	-fx-font-size: 15px;
+}
+.btn1 {
+    -fx-background-color: black;
+    -fx-text-fill:white;
+ 
+     -fx-font-family:"Monotype Corsiva";
+     -fx-font-size: 25px;
+}
+.btn2 {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+ 
+     -fx-font-family:"Monotype Corsiva";
+     -fx-font-size: 25px;
+}
+.btn3 {
+    -fx-background-color:black;
+    -fx-text-fill: white;
+ 
+     -fx-font-family:"Monotype Corsiva";
+     -fx-font-size: 25px;
+}
+.Root0-styling{
+	 -fx-translate-y:40px;
+}
+/*style du header */
+.header {
+    -fx-background-color:black;
+    -fx-padding: 10;
+    -fx-pref-height: 60px; 
+}
+.l1{
+    -fx-text-fill: white;
+     
+     -fx-font-family:"Monotype Corsiva";
+     -fx-font-size: 20px;
+}
+.button2 {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+ 
+     -fx-font-family:"Monotype Corsiva";
+     -fx-font-size: 20px;
+}
+ 

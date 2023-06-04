@@ -1,0 +1,52 @@
+/*style du scene4 */
+.label {
+     -fx-font-size: 40px;
+     -fx-text-fill:black;
+     -fx-font-family:"Monotype Corsiva";
+     -fx-font-weight: bold;
+}
+
+.text2 {
+	-fx-font-size: 40px;
+     -fx-text-fill:black;
+    -fx-font-weight: bold;
+    -fx-font-family:"Monotype Corsiva";
+   
+}
+.gridPane{
+	-fx-alignment: center;
+	 
+}
+.root{
+	
+	-fx-background-image: url('Background_sceneTable.jpeg');
+    -fx-background-size: cover;
+    -fx-background-position: fixed;
+}
+.downloadButton {
+	-fx-background-color:black;
+    -fx-text-fill: white;
+     -fx-min-width: 45px;
+     -fx-font-family:"Monotype Corsiva";
+     -fx-font-size: 25px;
+}
+/*css du header */
+.header {
+    -fx-background-color:black;
+    -fx-padding: 10;
+    -fx-pref-height: 60px; 
+}
+.l1{
+    -fx-text-fill: white;
+     
+     -fx-font-family:"Monotype Corsiva";
+     -fx-font-size: 20px;
+}
+.button2 {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+ 
+     -fx-font-family:"Monotype Corsiva";
+     -fx-font-size: 20px;
+}
+ 
