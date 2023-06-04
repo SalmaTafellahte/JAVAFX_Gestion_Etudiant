@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : ven. 26 mai 2023 à 20:24
+-- Généré le : dim. 04 juin 2023 à 03:23
 -- Version du serveur : 10.4.28-MariaDB
 -- Version de PHP : 8.1.17
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données : `projet_javafx`
+-- Base de données : `javafx`
 --
 
 -- --------------------------------------------------------
@@ -38,25 +38,16 @@ CREATE TABLE `student` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Index pour les tables déchargées
+-- Déchargement des données de la table `student`
 --
 
---
--- Index pour la table `student`
---
-ALTER TABLE `student`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `codeMassar` (`codeMassar`);
-
---
--- AUTO_INCREMENT pour les tables déchargées
---
-
---
--- AUTO_INCREMENT pour la table `student`
---
-ALTER TABLE `student`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+INSERT INTO `student` (`id`, `nom`, `prenom`, `age`, `anneeScolaire`, `codeMassar`, `niveau`) VALUES
+(1, 'SALMA', 'TAFELLAHTE', 21, 2023, 'D140028445', 'GI3'),
+(2, 'MOHAMED', 'TAFELLAHTE', 20, 2023, 'D140028447', 'GI3'),
+(3, 'Smith', 'Jane', 19, 2022, 'DEF456', 'Junior'),
+(4, 'Johnson', 'Michael', 21, 2020, 'GHI789', 'Senior'),
+(5, 'Garcia', 'Maria', 18, 2023, 'D1234567', 'GI3'),
+(6, 'CHAIMAE', 'TAFELLAHTE', 18, 2023, 'D12345688', 'GI3');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
